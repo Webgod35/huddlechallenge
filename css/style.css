@@ -160,7 +160,7 @@
     top: 240%;
 }
 .main-bottom-container{
-    background-color: rgb(23, 92, 23);
+    background-color: #1D5C63;
 }
 .maincontainer2{
     color: #FFFFFF;
@@ -191,9 +191,6 @@
     /* border: 5px solid rgba(217, 11, 11, 0); */
     border-radius: 10px;
 }
-.readybox{
-    margin-left: ;
-}
 .bottomboxbtn{
     color: #FFFFFF;
     background-color: #ed84c3;
@@ -203,69 +200,123 @@
     border-radius: 25px;
     font-weight: 500;
     box-shadow: 3px 8px 9px #dddada;
+    cursor: pointer;
 }
 .boxbtn{
     margin-top: 20px;
 }
 .b1{
-    padding-left: 50px;
+    padding-left: 100px;
+    font-size: 12px;
 }
 .bottomwriteup{
     display: flex;
+    margin-top: 25px;
 }
 .phone{
-    margin-top: 10px;
+    gap: 10px;
+    margin-top: 25px;
     display: flex;
+    font-size: 12px;
 }
 .email{
     display: flex;
-    padding-top: 10px;
+    gap: 15px;
+    margin-top: 25px;
+    font-size: 12px;
 }
 .abtn{
     border: none;
     background: none;
     color: #FFFFFF;
     font-size: 10px;
+    font-size: 12px;
+    padding-top: 25px;
 }
 .what{
     border: none;
     background: none;
     color: #FFFFFF;
     font-size: 10px;
-    margin-top: 10px;
+    margin-top: 25px;
+    font-size: 12px;
 }
 .faq{
     border: none;
     background: none;
     color: #FFFFFF;
     font-size: 10px;
-    margin-top: 10px;
+    margin-top: 25px;
+    font-size: 12px;
 }
 .car{
     border: none;
     background: none;
     color: #FFFFFF;
     font-size: 10px;
+    font-size: 12px;
 }
 .blog{
     border: none;
     background: none;
     color: #FFFFFF;
     font-size: 10px;
-    margin-top: 10px;
+    margin-top: 25px;
+    font-size: 12px;
 }
 .contact{
     border: none;
     background: none;
     color: #FFFFFF;
     font-size: 10px;
-    margin-top: 10px;
+    margin-top: 25px;
+    font-size: 12px;
 }
 .icon-container{
     margin-right: 15px;
+    font-size: 12px;
 }
 .copy{
-    margin-right: 50px;
+    margin-right: 120px;
     margin-top: 100px;
+    font-size: 12px;
 }
-
+.logocon{
+    height: 25px;
+}
+.b3{
+    margin-top: 25px;
+}
+.icon-container{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 50px;
+}
+.fblogo{
+    border-radius: 50%;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.fblogo:hover{
+    border: 1px solid #ed84c3;
+    color: #ed84c3;
+}
+.clogo{
+    /* border: 1px solid red; */
+}
+.writeup01{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+.localogo{
+    margin-top: 1px;
+}
